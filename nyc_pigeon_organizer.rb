@@ -4,7 +4,7 @@ def nyc_pigeon_organizer(data)
       "Theo" => {
           color: ["purple", "grey"],
           gender: "male",
-          lives: 
+          lives: "subway"
       },
       "Peter Jr." => nil,
       "Lucky" => nil,
