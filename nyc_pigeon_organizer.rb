@@ -7,6 +7,7 @@ def nyc_pigeon_organizer(data)
       "Ms. K": nil,
       Queenie: nil,
       Andrew: nil,
-      Alex: nil
+      Alex: nil,
+      pablo: nil
   }
 end
