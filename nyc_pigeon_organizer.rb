@@ -10,7 +10,7 @@ def nyc_pigeon_organizer(data)
           lives: []
       }
   end
-  binding.pry
+ pigeon_list
 end
 
 def get_pigeons_names(data)
