@@ -12,6 +12,12 @@ def nyc_pigeon_organizer(data)
       data[:color].each do |key, value|
           pigeon_list[name][:color].push(key.to_s) if value.include?(name)
       end
+      data[:gender].each do |key, value|
+          pigeon_list[name][:gender].push(key.to_s) if value.include?(name)
+      end
+      data[:lives].each do |key, value|
+          pigeon_list[name][:lives].push(key.to_s) if value.include?(name)
+      end
   end
  pigeon_list
 end
