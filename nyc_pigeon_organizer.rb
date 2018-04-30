@@ -10,7 +10,7 @@ def nyc_pigeon_organizer(data)
           lives: []
       }
       data[:color].each do |key, value|
-          pigeon_list[name][color].push(key.to_s) if value.include?(name)
+          pigeon_list[name][:color].push(key.to_s) if value.include?(name)
       end
   end
  pigeon_list
