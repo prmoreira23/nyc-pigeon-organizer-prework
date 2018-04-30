@@ -4,7 +4,7 @@ def nyc_pigeon_organizer(data)
   pigeon_list = {}
   names = get_pigeons_names(data)
   names.each do |name|
-      pigeons[name] = {
+      pigeon_list[name] = {
           color: [],
           gender: [],
           lives: []
