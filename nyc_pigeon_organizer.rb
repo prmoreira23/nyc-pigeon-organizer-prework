@@ -2,7 +2,7 @@ def nyc_pigeon_organizer(data)
   # write your code here!
   {
       "Theo" => {
-          color: ["purple", "green"]
+          color: ["purple", "grey"]
       },
       "Peter Jr." => nil,
       "Lucky" => nil,
