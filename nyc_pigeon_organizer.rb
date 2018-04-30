@@ -5,7 +5,9 @@ def nyc_pigeon_organizer(data)
   names = get_pigeons_names(data)
   names.each do |name|
       pigeons[name] = {
-
+          color: [],
+          gender: [],
+          lives: []
       }
   end
 end
