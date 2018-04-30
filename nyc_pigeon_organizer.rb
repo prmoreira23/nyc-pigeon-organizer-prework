@@ -3,7 +3,11 @@ def nyc_pigeon_organizer(data)
   # write your code here!
   pigeon_list = {}
   names = get_pigeons_names(data)
-  binding.pry
+  names.each do |name|
+      pigeons[name] = {
+
+      }
+  end
 end
 
 def get_pigeons_names(data)
