@@ -12,5 +12,5 @@ def get_pigeons_names(data)
             names.push(value)
         end
     end
-    names.flatten,. uniq
+    names.flatten.uniq
 end
